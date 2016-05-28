@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<header class="page-header">
+	  <nav class="main-nav main-nav--closed">
+		<button class="main-nav__toggle" type="button">
+		  <img src="#" width="30" height="30" alt="Sandwich">
+		</button>
+		<div class="main-nav__wrapper">
+		  <ul class="main-nav__items">
+			<li class="main-nav__item main-nav__item--active">Главная</li>
+			<li class="main-nav__item">Фото и видео</li>
+			<li  class="main-nav__item">Форма отзыва</li>
+			<li class="main-nav__item">Html academy</li>
+		  </ul>
+		</div>
+	  </nav> 
+	  <div class="page-header__logo">
+		<img src="#" width="60" height="60" alt="logo">
+	  </div>
+	  <div class="page-header__slider">
+		<img src="#" width="370" height="150" alt="sedona">
+	  </div>
+	  <h2 class="page-header__title">Оставьте свой отзыв</h2>
+	  <p>Помогите нашим отелям стать лучше!<br>  
+	  Оставьте отзыв о них, а также о <br>
+	   посещенных вами<br>
+	   достопримечательностях </p>
+	  <hr>
+	</header>
+	<main class="reviews-wrapper">
+	  <form action="#" method="post">
+	    <p>Представьтесь, пожалуйста</p>
+	    <label for="name">Имя:</label>
+		<input type="text" name="name" value="Петр">
+		<label for="surname">Фамилия:</label>
+		<input type="text" name="surname" value="Иванов">
+		<label for="fathername">Отчество:</label>
+		<input type="text" name="fathername" value="Александрович">
+		<hr>
+		<p class="contacts">Контактная информация:</p>
+ 		<label for="tel">Контактный телефон:</label>
+ 		<input type="tel" name="tel" pattern="[1-9]{3}-[1-9]{2}-[1-9]{2}" value="Введите телефон"> <img src="#" alt="phone">
+
+		<label for="email">Электронная почта:
+		</label>
+		<input type="email" name="email" value="Введите e-mail">
+		<img src="#" alt="envelope">
+		<hr>
+		<p>Ваше общее впечатление:</p>
+
+		<input type="radio" value="" name="positive" checked> 
+		<label for="positive">Скорее положительное</label>
+		<input type="radio" value="">
+		<label for="negative">Скорее отрицательное</label>
+		<input type="radio" value="" >
+		<label for="noanswer">Затрудняюсь ответить</label>
+		<hr>
+		<p>Посещенные достопримечательности:</p>
+
+		<input type="checkbox" checked>
+		<label for="">Мост Дьявола</label>
+		<input type="checkbox" checked>
+		<label for="">Слайд-парк</label>
+		<input type="checkbox">
+		<label for="">Гора-Колокол</label>
+		<input type="checkbox" checked>
+		<label for="">Красные скалы</label>
+		<hr>
+		<p>Опишите свои эмоции</p>
+
+		<textarea name="post" id="post" cols="30" rows="7">Опишите подробно все свои восторги</textarea>
+
+		<input type="submit" value="Отправить отзыв">
+
+	</form>
+
+	</main>
+
+	<footer class="page-footer">
+		<div class="page-footer__wrapper">
+		<a href="#">#visitsedona</a>
+		<p class="page-footer__social">
+			<span class="social-links">
+
+				<a href="https://vk.com/htmlacademy"  class="social-link social-link--vk"><img src="#" alt="Мы Вконтакте"></a>
+
+				<a href="https://facebook.com/htmlacademy"  class="social-link social-link--fb"><img src="#" alt="Мы в Фейсбуке"></a>
+
+				<a href="https://instagram.com/htmlacademy"  class="social-link social-link--in"><img src="#" alt="Мы в Инстаграме"></a>
+
+			</span>
+		</p>
+		<p class="page-footer__copyright">
+			Разработано
+			<a class="btn page-footer__copyright-link" href="#">
+			<img src="#" alt="htmlacademy"></a>
+
+		</p>
+		
+		</div>
+
+	</footer>
+</body>
+</html>
