@@ -42,28 +42,29 @@
 	  	<legend class="text">Представьтесь, пожалуйста</legend>
 	  	    <div class="cell">
 		  	    <label class="label" for="name">Имя:</label>
-				<input class="input" type="text" name="name" value="Петр">
+				<input class="input" type="text" name="name" id="name" value="Петр">
 			</div>
 			<div class="cell">
 				<label class="label" for="surname">Фамилия:</label>
-				<input class="input" type="text" name="surname" value="Иванов">
+				<input class="input" type="text" name="surname" id="surname" value="Иванов">
 			</div>
 			<div class="cell">
 				<label class="label" for="fathername">Отчество:</label>
-				<input class="input" type="text" name="fathername" value="Александрович">
+				<input class="input" type="text" name="fathername" id="fathername" value="Александрович">
 			</div>
 		</fieldset>
 		<fieldset>
 			<legend class="text">Контактная информация:</legend>
 				<div class="cell">
 			 		<label class="contacts" for="tel">Контактный телефон:</label>
-			 		<input class="contacts-input" type="tel" name="tel" pattern="[1-9]{3}-[1-9]{2}-[1-9]{2}" value="Введите телефон"> <img src="#" alt="phone">
+			 		<input class="contacts-input" type="tel" name="tel" id="tel" pattern="[1-9]{3}-[1-9]{2}-[1-9]{2}" value="Введите телефон"> <img src="#" alt="phone">
 				</div>
 				<div class="cell">
 					<label class="contacts" for="email">Электронная почта:
 					</label>
-					<input class="contacts-input" type="email" name="email" value="Введите e-mail">
-					<div class="envelope"></div>>
+					<input class="contacts-input" type="email" name="email" id="email" value="Введите e-mail">
+
+					<div class="envelope"></div>
 				</div>
 		</fieldset>
 		<fieldset>
@@ -86,19 +87,19 @@
 			<legend class="text">
 			Посещенные достопримечательности:</legend>
 				<div class="cell">
-					<input class="input" type="checkbox" name="bridge" checked>
+					<input class="input" type="checkbox" name="bridge" id=""bridge"" checked>
 					<label class="label" for="bridge">Мост Дьявола</label>
 				</div>
 				<div class="cell">
-					<input class="input" type="checkbox" name="park" checked>
+					<input class="input" type="checkbox" name="park" id="park" checked>
 					<label class="label" for="park">Слайд-парк</label>
 				</div>
 				<div class="cell">
-					<input class="input" name="bell" type="checkbox">
+					<input class="input" name="bell" id="bell" type="checkbox">
 					<label class="label" for="bell">Гора-Колокол</label>
 				</div>
 				<div class="cell">
-					<input class="input" type="checkbox" name="cliff" checked>
+					<input class="input" type="checkbox" name="cliff" id="cliff" checked>
 					<label class="label" for="cliff">Красные скалы</label>
 				</div>
 		</fieldset>
