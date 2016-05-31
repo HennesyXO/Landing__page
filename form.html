@@ -24,6 +24,7 @@
 		<img src="#" width="60" height="60" alt="logo">
 	  </div>
 	  <div class="page-header__image">
+
 	  </div>
 	  <div class="page-header__intro">
 		  <h2 class="page-header__title">Оставьте свой отзыв</h2>
@@ -36,87 +37,104 @@
 	</header>
 
 	<main class="reviews-wrapper">
-	  <form class="reviews-form" action="#" method="post">
+	  <form class="form" action="#" method="post">
 	  <fieldset>
 	  	<legend class="text">Представьтесь, пожалуйста</legend>
-	  	    <label class="personal-data" for="name">Имя:</label>
-			<input class="personal-input" type="text" name="name" value="Петр">
-
-			<label class="personal-data" for="surname">Фамилия:</label>
-			<input class="personal-input" type="text" name="surname" value="Иванов">
-
-			<label class="personal-data" for="fathername">Отчество:</label>
-			<input class="personal-input" type="text" name="fathername" value="Александрович">
+	  	    <div class="cell">
+		  	    <label class="label" for="name">Имя:</label>
+				<input class="input" type="text" name="name" value="Петр">
+			</div>
+			<div class="cell">
+				<label class="label" for="surname">Фамилия:</label>
+				<input class="input" type="text" name="surname" value="Иванов">
+			</div>
+			<div class="cell">
+				<label class="label" for="fathername">Отчество:</label>
+				<input class="input" type="text" name="fathername" value="Александрович">
+			</div>
 		</fieldset>
 		<fieldset>
 			<legend class="text">Контактная информация:</legend>
-
-	 		<label class="contacts" for="tel">Контактный телефон:</label>
-	 		<input class="contacts-input" type="tel" name="tel" pattern="[1-9]{3}-[1-9]{2}-[1-9]{2}" value="Введите телефон"> <img src="#" alt="phone">
-
-			<label class="contacts" for="email">Электронная почта:
-			</label>
-			<input class="contacts-input" type="email" name="email" value="Введите e-mail">
-			<img src="#" alt="envelope">
+				<div class="cell">
+			 		<label class="contacts" for="tel">Контактный телефон:</label>
+			 		<input class="contacts-input" type="tel" name="tel" pattern="[1-9]{3}-[1-9]{2}-[1-9]{2}" value="Введите телефон"> <img src="#" alt="phone">
+				</div>
+				<div class="cell">
+					<label class="contacts" for="email">Электронная почта:
+					</label>
+					<input class="contacts-input" type="email" name="email" value="Введите e-mail">
+					<div class="envelope"></div>>
+				</div>
 		</fieldset>
 		<fieldset>
 			<legend class="text">
 			Ваше общее впечатление:</legend>
-
-			<input class="review-choice" type="radio" value="" name="positive" checked> 
-			<label class="reviw-label" for="positive">Скорее положительное</label>
-			<input class="review-choice" type="radio" value="">
-			<label class="reviw-label" for="negative">Скорее отрицательное</label>
-			<input class="review-choice" type="radio" value="" >
-			<label class="reviw-label" for="noanswer">Затрудняюсь ответить</label>
+				<div class="cell">
+					<input class="input" type="radio" name="positive" id="positive" checked> 
+					<label class="label" for="positive">Скорее положительное</label>
+				</div>
+				<div class="cell">
+					<input class="input" type="radio" name="negative" id="negative">
+					<label class="label" for="negative">Скорее отрицательное</label>
+				</div>
+				<div class="cell">
+					<input class="input" type="radio" name="noanswer" id="noanswer" >
+					<label class="label" for="noanswer">Затрудняюсь ответить</label>
+				</div>
 		</fieldset>
 		<fieldset>
 			<legend class="text">
 			Посещенные достопримечательности:</legend>
-
-			<input class="place-choice" type="checkbox" checked>
-			<label class="places" for="">Мост Дьявола</label>
-			<input class="place-choice" type="checkbox" checked>
-			<label class="places" for="">Слайд-парк</label>
-			<input class="place-choice" type="checkbox">
-			<label class="places" for="">Гора-Колокол</label>
-			<input class="place-choice" type="checkbox" checked>
-			<label class="places" for="">Красные скалы</label>
+				<div class="cell">
+					<input class="input" type="checkbox" name="bridge" checked>
+					<label class="label" for="bridge">Мост Дьявола</label>
+				</div>
+				<div class="cell">
+					<input class="input" type="checkbox" name="park" checked>
+					<label class="label" for="park">Слайд-парк</label>
+				</div>
+				<div class="cell">
+					<input class="input" name="bell" type="checkbox">
+					<label class="label" for="bell">Гора-Колокол</label>
+				</div>
+				<div class="cell">
+					<input class="input" type="checkbox" name="cliff" checked>
+					<label class="label" for="cliff">Красные скалы</label>
+				</div>
 		</fieldset>
 		<fieldset>
 			<legend class="text">Опишите свои эмоции</legend>
 
-		<textarea  class="feedback" name="post" id="post" cols="30" rows="7">Опишите подробно все свои восторги</textarea>
+				<textarea  class="feedback" name="post" id="post" cols="30" rows="7">Опишите подробно все свои восторги</textarea>
 		</fieldset>
-		<input class="btn" type="submit" value="Отправить отзыв">
 
-	</form>
+				<input class="btn" type="submit" value="Отправить отзыв">
+
+	  </form>
 
 	</main>
 
 	<footer class="page-footer">
-		<div class="page-footer__wrapper">
-		<a href="#">#visitsedona</a>
-		<p class="page-footer__social">
-			<div class="social-links">
-
-				<a href="https://vk.com/htmlacademy"  class="social-link social-link--vk"><img src="#" alt="Мы Вконтакте"></a>
-
-				<a href="https://facebook.com/htmlacademy"  class="social-link social-link--fb"><img src="#" alt="Мы в Фейсбуке"></a>
-
-				<a href="https://instagram.com/htmlacademy"  class="social-link social-link--in"><img src="#" alt="Мы в Инстаграме"></a>
-
-			</div>
-		</p>
-		<p class="page-footer__copyright">
-			Разработано
-			<a class="btn page-footer__copyright-link" href="#">
-			<img src="#" alt="htmlacademy"></a>
-
-		</p>
 		
-		</div>
+			<a href="#">#visitsedona</a>
+			<p class="page-footer__social">
+				<div class="social-links">
 
+					<a href="https://vk.com/htmlacademy"  class="social-link social-link--vk"><img src="#" alt="Мы Вконтакте"></a>
+
+					<a href="https://facebook.com/htmlacademy"  class="social-link social-link--fb"><img src="#" alt="Мы в Фейсбуке"></a>
+
+					<a href="https://instagram.com/htmlacademy"  class="social-link social-link--in"><img src="#" alt="Мы в Инстаграме"></a>
+
+				</div>
+			</p>
+			<p class="page-footer__copyright">
+				Разработано
+				<a class="btn page-footer__copyright-link" href="#">
+				<img src="#" alt="htmlacademy"></a>
+
+			</p>
+		
 	</footer>
 </body>
 </html>
