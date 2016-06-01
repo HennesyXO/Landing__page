@@ -36,75 +36,84 @@
 	  </div>
 	</header>
 
-	<main class="reviews-wrapper">
-	  <form class="form" action="#" method="post">
-	  <fieldset>
-	  	<legend class="text">Представьтесь, пожалуйста</legend>
-	  	    <div class="cell">
+	<main class="reviews">
+	  <form class="reviews__form" action="#" method="post">
+	  <fieldset class="reviews__form__personal-data"> 
+	  <!--  is it correct?-->
+	  	<legend class="text"></legend>
+	  	<p class="text">Представьтесь, пожалуйста</p>
+	  	<!--  -->
+	  	    <div class="input-label">
 		  	    <label class="label" for="name">Имя:</label>
 				<input class="input" type="text" name="name" id="name" value="Петр">
 			</div>
-			<div class="cell">
+			<div class="input-label">
 				<label class="label" for="surname">Фамилия:</label>
 				<input class="input" type="text" name="surname" id="surname" value="Иванов">
 			</div>
-			<div class="cell">
+			<div class="input-label">
 				<label class="label" for="fathername">Отчество:</label>
 				<input class="input" type="text" name="fathername" id="fathername" value="Александрович">
 			</div>
 		</fieldset>
-		<fieldset>
-			<legend class="text">Контактная информация:</legend>
-				<div class="cell">
+		<fieldset class="reviews__form__contacts">
+		<!--  is it correct?-->
+			<legend class="text"></legend>
+			<p class="text">Контактная информация:</p>
+			<!--  -->
+				<div class="input-label">
 			 		<label class="contacts" for="tel">Контактный телефон:</label>
 			 		<input class="contacts-input" type="tel" name="tel" id="tel" pattern="[1-9]{3}-[1-9]{2}-[1-9]{2}" value="Введите телефон"> <img src="#" alt="phone">
 				</div>
-				<div class="cell">
+				<div class="input-label">
 					<label class="contacts" for="email">Электронная почта:
 					</label>
 					<input class="contacts-input" type="email" name="email" id="email" value="Введите e-mail">
 
-					<div class="envelope"></div>
+					<!-- image here -->
 				</div>
 		</fieldset>
-		<fieldset>
+		<fieldset class="reviews__form__evaluation">
 			<legend class="text">
-			Ваше общее впечатление:</legend>
-				<div class="cell">
+			</legend>
+			<p class="text">Ваше общее впечатление:</p>
+				<div class="input-label">
 					<input class="input" type="radio" name="positive" id="positive" checked> 
 					<label class="label" for="positive">Скорее положительное</label>
 				</div>
-				<div class="cell">
+				<div class="input-label">
 					<input class="input" type="radio" name="negative" id="negative">
 					<label class="label" for="negative">Скорее отрицательное</label>
 				</div>
-				<div class="cell">
+				<div class="input-label">
 					<input class="input" type="radio" name="noanswer" id="noanswer" >
 					<label class="label" for="noanswer">Затрудняюсь ответить</label>
 				</div>
 		</fieldset>
-		<fieldset>
+		<fieldset  class="reviews__form__visited-places">
 			<legend class="text">
-			Посещенные достопримечательности:</legend>
-				<div class="cell">
+			</legend>
+			<p class="text">Посещенные достопримечательности:</p>
+				<div class="input-label">
 					<input class="input" type="checkbox" name="bridge" id=""bridge"" checked>
 					<label class="label" for="bridge">Мост Дьявола</label>
 				</div>
-				<div class="cell">
+				<div class="input-label">
 					<input class="input" type="checkbox" name="park" id="park" checked>
 					<label class="label" for="park">Слайд-парк</label>
 				</div>
-				<div class="cell">
+				<div class="input-label">
 					<input class="input" name="bell" id="bell" type="checkbox">
 					<label class="label" for="bell">Гора-Колокол</label>
 				</div>
-				<div class="cell">
+				<div class="input-label">
 					<input class="input" type="checkbox" name="cliff" id="cliff" checked>
 					<label class="label" for="cliff">Красные скалы</label>
 				</div>
 		</fieldset>
-		<fieldset>
-			<legend class="text">Опишите свои эмоции</legend>
+		<fieldset class="reviews__form__feedback">
+			<legend class="text"></legend>
+			<p class="text">Опишите свои эмоции</p>
 
 				<textarea  class="feedback" name="post" id="post" cols="30" rows="7">Опишите подробно все свои восторги</textarea>
 		</fieldset>
