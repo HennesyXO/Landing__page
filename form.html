@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,17 +7,18 @@
 </head>
 <body>
 	<header class="page-header">
-	  <nav class="page-header__main-nav main-nav main-nav--closed">
+	  <nav class="main-menu main-nav--closed">
 		
-		  <ul class="main-nav__items">
-			<li class="main-nav__item main-nav__item--active"><a href="#">Главная</a></li>
-			<li class="main-nav__item"><a href="#">Фото и видео</a></li>
-			<li  class="main-nav__item"><a href="#">Форма отзыва</a></li>
-			<li class="main-nav__item"><a href="#">Html academy</a></li>
+		  <ul class="main-menu__items">
+			<li class="main-menu__item main-menu__item--active"><a href="#">Главная</a></li>
+			<li class="main-menu__item"><a href="#">Фото и видео</a></li>
+			<li class="main-menu__item"><a href="#">Html academy</a></li>
+			<li  class="main-menu__item"><a href="#">Форма отзыва</a></li>
+			
 		  </ul>
 		
 	  </nav>
-	  <button class="main-nav__toggle" type="button">
+	  <button class="main-menu__toggle" type="button">
 	  <img src="#" width="30" height="30" alt="Sandwich">
 		</button>
 
@@ -39,8 +41,8 @@
 	<main class="reviews">
 	  <form class="form" action="#" method="post">
 	  <fieldset class="form__personal-data"> 
-	  <!--  is it correct?-->
-	  	<legend>Представьтесь, пожалуйста</legend>
+	  
+	  	<legend class="legend">Представьтесь, пожалуйста</legend>
 	  	
 	  	<!--  -->
 	  	    <div class="input-label">
@@ -57,8 +59,8 @@
 			</div>
 		</fieldset>
 		<fieldset class="form__contacts">
-		<!--  is it correct?-->
-			<legend>Контактная информация:</legend>
+		
+			<legend class="legend">Контактная информация:</legend>
 			
 			<!--  -->
 				<div class="input-label">
@@ -74,7 +76,7 @@
 				</div>
 		</fieldset>
 		<fieldset class="form__evaluation">
-			<legend>Ваше общее впечатление:
+			<legend class="legend">Ваше общее впечатление:
 			</legend>
 			
 				<div class="input-label">
@@ -91,7 +93,7 @@
 				</div>
 		</fieldset>
 		<fieldset  class="form__visited-places">
-			<legend>Посещенные достопримечательности:
+			<legend class="legend">Посещенные достопримечательности:
 			</legend>
 			
 				<div class="input-label">
@@ -138,14 +140,15 @@
 					<a href="https://instagram.com/htmlacademy"  class="social-link social-link--in"><img src="#" alt="Мы в Инстаграме"></a>
 
 				</div>
-			</p>
-			<p class="page-footer__copyright">
+		
+			<div class="page-footer__copyright">
 				Разработано
 				<a class="btn page-footer__copyright-link" href="#">
 				<img src="#" alt="htmlacademy"></a>
 
-			</p>
+			</div>
 		
 	</footer>
 </body>
+
 </html>
