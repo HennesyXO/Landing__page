@@ -1,0 +1,57 @@
+.video {
+  margin-top: 35px;
+  margin-bottom: 80px;
+
+  @include block-outline(1px, solid, black);
+  //margin-bottom: 140px;
+}
+
+.video__title {
+  display: block;
+  margin: 0 40px 25px;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: $font-bold;
+  text-align: center;
+}
+
+.video__description {
+  margin: 0 40px 40px;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: $secondary-text-color;
+}
+
+.video__item {
+  position: relative;
+}
+
+
+.video__item-picture {
+  height: 201px;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+
+.video__item-image {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.video__video-controls {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: -67px;
+  }
+
+/*.video__video-controls .video-controls__progress-info {
+  position: absolute;
+  right: 20px;
+  bottom: 66px;
+  left: 20px;
+}*/
