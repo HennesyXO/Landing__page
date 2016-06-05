@@ -1,5 +1,4 @@
 .page-header {
-  position: relative;
 
   padding-bottom: 56px;
 
@@ -10,12 +9,15 @@
 
 .page-header__logo {
   position: absolute;
-  bottom: 0;
+  bottom: -80px;
   left: 50%;
-
   margin: 0;
-
   transform: translateX(-50%);
+}
+
+.page-header__logo-wrapper {
+
+  position: relative;
 }
 
 
@@ -24,6 +26,6 @@
 }
 
 
-.page-header__toogle {
+.page-header__toggle {
   float: right;
 }
