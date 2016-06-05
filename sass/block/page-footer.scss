@@ -1,0 +1,29 @@
+.page-footer {
+  margin-top: 40px;
+  margin-bottom: 35px;
+
+  text-align: center;
+
+  @include block-outline(1px, solid, #000000);
+}
+
+
+.page-footer__hashtag {
+  margin-bottom: 40px;
+
+  font-size: 21px;
+  line-height: 26px;
+  font-family: $font-bold;
+  text-transform: uppercase;
+}
+
+
+.page-footer__social-block {
+  margin-bottom: 40px;
+
+  font-size: 0;
+
+  & .social-btn {
+    margin-right: 6px;
+  }
+}
