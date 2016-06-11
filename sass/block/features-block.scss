@@ -1,3 +1,10 @@
 .features-block {
   @include block-outline(1px, solid, black);
+  @include clearfix();
+}
+
+@media #{$tablet-widths} {
+.features-block {
+  min-width: 768px;
+}
 }

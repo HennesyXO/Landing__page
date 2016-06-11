@@ -26,3 +26,11 @@
   text-align: center;
   color: $secondary-text-color;
 }
+
+@media #{$tablet-widths} {
+  .features-header {
+    width: 486px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
