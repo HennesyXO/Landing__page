@@ -4,7 +4,7 @@
   padding-bottom: 45px;
   padding-left: 4.2%;
   text-align: center;
-  @include block-outline(2px, dashed, blue);
+  // @include block-outline(2px, dashed, blue);
 
 
 
@@ -56,7 +56,7 @@
 
   font-family: $font-bold;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.2;
 }
 
 
@@ -64,14 +64,14 @@
   display: block;
   margin-bottom: 15px;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 1.5;
 }
 
 
 .feature__description {
   margin: 0;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 1.5;
 }
 
 @media #{$tablet-widths} {

@@ -2,14 +2,15 @@
   margin-top: 40px;
   margin-bottom: 35px;
   text-align: center;
-  @include block-outline(1px, solid, #000000);
+  // @include block-outline(1px, solid, #000000);
 }
 
 
 .page-footer__hashtag {
+  display: block;
   margin-bottom: 40px;
   font-size: 21px;
-  line-height: 26px;
+  line-height: 1.3;
   font-family: $font-bold;
   text-transform: uppercase;
 }
@@ -36,6 +37,7 @@
 
 
   .page-footer__hashtag {
+    display: block;
     float: left;
     width: 33.3%;
     padding-top: 11px;

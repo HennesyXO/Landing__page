@@ -1,0 +1,13 @@
+.features-row {
+  // @include block-outline(1px, solid, black);
+  @include clearfix();
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media #{$tablet-widths} {
+.features-row {
+  min-width: 768px;
+  padding: 0;
+}
+}

@@ -1,5 +1,5 @@
 .feedback-form {
-  @include block-outline(1px, solid, black);
+  // @include block-outline(1px, solid, black);
 }
 
 
@@ -14,8 +14,6 @@
   border: none;
   border-bottom: 1px solid #e5e5e5;
 
-  @include block-outline(2px, dashed, blue);
-
  &--emotions {
     padding-bottom: 50px;
 
@@ -29,16 +27,15 @@
   padding-bottom: 25px;
 
   font-size: 18px;
-  line-height: 26px;
+  line-height: 1.45;
   font-family: $font-bold;
   text-align: center;
 }
 
 .feedback-form__label {
   margin: 0;
-
   font-size: 14px;
-  line-height: 26px;
+  line-height: 1.2;
   text-align: center;
   color: $secondary-text-color;
 
@@ -51,7 +48,7 @@
     padding-left: 78px;
 
     font-size: 18px;
-    line-height: 26px;
+    line-height: 1.45;
     font-family: $font-bold;
     text-align: left;
     text-transform: none;
@@ -93,11 +90,9 @@
   box-sizing: border-box;
   height: 58px;
   padding: 16px 22px;
-
   font-size: 18px;
-  line-height: 26px;
+  line-height: 1.45;
   font-family: $font-bold;
-
   background-color: $input-background;
   border: none;
 
@@ -110,7 +105,6 @@
     position: absolute;
     top: 5px;
     left: 17px;
-
     width: 22px;
     height: 22px;
 
@@ -137,9 +131,9 @@
 .feedback-form__error {
   display: block;
   padding-top: 8px;
-
+  padding-left: 20px;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 1.3;
   color: #ff5c5c;
   text-transform: none;
 }
@@ -151,7 +145,7 @@
   min-height: 160px;
   padding: 0 20px;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 1.45;
   font-family: $font-bold;
   background-color: $input-background;
   border: none;
@@ -163,11 +157,10 @@
   margin: 0 20px;
  }
 
-.feedback-form__required-fileds {
+.feedback-form__required-fields {
   display: none;
-
   font-size: 14px;
-  line-height: 26px;
+  line-height: 1.3;
   color: $secondary-text-color;
 }
 
@@ -223,7 +216,7 @@
   }
 
 
-.feedback-form__required-fileds {
+.feedback-form__required-fields {
     display: block;
     width: 200px;
   }
@@ -244,6 +237,4 @@
     }
   }
 }
-
-
 

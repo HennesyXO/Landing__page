@@ -1,21 +1,23 @@
 .feature-picture {
-  height: 260px;
+  min-height: 260px;
   margin: 0;
   overflow: hidden;
 }
 .feature-picture__image {
   display: block;
-  width: auto;
   height: 100%;
+  width: auto;
+  margin: 0 auto;
 
-  transform: translateX(-109px);
+  background-size: cover;
+  // transform: translateX(-109px);
 }
 
 @media #{$tablet-widths} {
    .feature-picture {
     width: 66.6%;
     float: left;
-    height: 256px
+    height: 256px;
    }
 
 
@@ -24,9 +26,6 @@
     top: 50%;
     width: 100%;
     height: auto;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
    }
  }
-
-
-

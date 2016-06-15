@@ -1,5 +1,5 @@
 .video-controls {
-  @include block-outline(2px, dashed, blue);
+  // @include block-outline(2px, dashed, blue);
 }
 
 
@@ -114,4 +114,4 @@
   .video-controls__progress-bar {
     width: 540px;
   }
-  }
+}
