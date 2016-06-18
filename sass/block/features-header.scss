@@ -2,8 +2,11 @@
   margin-bottom: 20px;
   padding-right: 30px;
   padding-left: 30px;
-
-  // @include block-outline(1px, solid, black);
+  @media #{$tablet-widths} {
+    width: 486px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
 }
 
 
@@ -16,7 +19,6 @@
   text-align: center;
 }
 
-
 .features-header__description {
   margin: 0;
   font-size: 14px;
@@ -25,10 +27,4 @@
   color: $secondary-text-color;
 }
 
-@media #{$tablet-widths} {
-  .features-header {
-    width: 486px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
-}
+

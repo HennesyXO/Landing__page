@@ -1,33 +1,37 @@
 .page-header {
   position: relative;
   padding-bottom: 56px;
-
+  width:100%;
 }
 
 .page-header__logo-wrapper {
-position: relative;
+  position: relative;
 
+}
+
+.page-header__logo-link {
+  position: relative;
 }
 
 .page-header__logo-wrapper img {
   display: block;
-  margin: 0 auto;
   width: 102px;
- //
+  margin: 0 auto;
+  @media #{$desktop-widths} {
+
+    background: url(img/bg-triangle.svg) no-repeat 50% 50%;
+  }
 }
 
 .page-header__toggle {
   position: absolute;
   top: 0;
   right: 0;
-  width:30px;
-  // margin-top: 0;
-  margin-left:250px;
-  // padding: 0;
+
 }
-.page-header__toggle img {
+.page-header__toggle > img {
   display: block;
-  width: 50px;
+  width: auto;
 }
 
 .page-header__logo-link {

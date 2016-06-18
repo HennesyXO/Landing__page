@@ -21,10 +21,11 @@
 
   font-size: 0;
 
-  & .social-btn {
+}
+
+.social-btn {
     margin-right: 6px;
   }
-}
 
 .page-footer__copyright {
   margin-bottom: 35px;
@@ -32,7 +33,7 @@
 
 @media #{$tablet-widths} {
   .page-footer {
-    @include clearfix();
+
   }
 
 

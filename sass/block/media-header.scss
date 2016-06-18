@@ -1,7 +1,14 @@
 .media-header {
   margin: 45px 30px 25px 25px;
   border-bottom: 1px solid #e5e5e5;
+    @media #{$tablet-widths} {
+    padding: 0;
+    width: 428px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
 
+ }
 }
 
 .media-header__title {
@@ -13,19 +20,10 @@
   text-align: center;
 }
 
-
 .media-header__description {
   margin: 0;
   text-align: center;
   color: $secondary-text-color;
 }
 
-@media #{$tablet-widths} {
-  .media-header {
-    padding: 0;
-    width: 428px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 70px;
-  }
- }
+
