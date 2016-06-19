@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title>Седона</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   </head>
   <body>
     <div class="site-wrapper">
       <header class="page-header">
-          <nav class="main-nav main-nav--opened">
+          <nav class="main-nav main-nav--open">
 
             <ul class="main-nav__list">
               <li class="main-nav__item"><a href="index.html" class="main-nav__link">Главная</a></li>
@@ -19,22 +20,21 @@
           </nav>
 
          <div class="page-header__logo-wrapper">
-          <div class="page-header__logo">
-            <img src="img/logo-sedona-mobile.svg" width="102" height="83" alt="logo">
-          </div>
-        </div>
+          <a href="index.html" class="page-header__logo-link">
+              <img src="img/logo-sedona-mobile.svg" width="102" height="83" alt="logo">
+          </a>
+
           <button class="page-header__toggle" type="button">
              <img src="img/icon-menu.svg" width="30" height="30" alt="Menu">
           </button>
-         </div>
+          </div>
+
 
       </header>
 
     <div class="page-promo page-promo--small">
       <img src="img/text-sedona-index.svg" width="229" height="39" class="page-promo__image" alt="Sedona">
     </div>
-
-
 
 	<div class="media-header">
     <h2 class="media-header__title">Фото и видео</h2>
@@ -43,36 +43,38 @@
 	</div>
 
   <div class="media-items">
-      <article class="media-item">
+      <article class="media-item media-item--wide">
         <a href="#" class="media-item__link">
-          <img src="img/photo-1-mobile@1x.jpg" width="280" height="280" alt="" class="media-item__image">
+          <img src="img/photo-1-mobile@1x.jpg" width="" height="" alt="" class="media-item__image">
         </a>
 
-        <div class="media-item__description">
-          <div class="media-item__title">Неродные просторы</div>
-          <div class="media-item__author">Автор фото: Борис</div>
-        </div>
+        <div class="media-item__bottom-row">
+          <div class="media-item__description">
+            <div class="media-item__title">Неродные просторы</div>
+            <div class="media-item__author">Автор фото: Борис</div>
+          </div>
 
-        <div class="media-item__likes">
-          <button class="media-item__likes-btn"></button>
-          <a href="#" class="media-item__likes-count">1350</a>
+          <div class="media-item__likes">
+            <a href="#" class="media-item__likes-count"><img src="img/icon-like.svg" alt="">1350</a>
+          </div>
         </div>
       </article>
 
 
       <article class="media-item">
         <a href="#" class="media-item__link">
-          <img src="img/photo-2-mobile@1x.jpg" width="280" height="280" alt="" class="media-item__image">
+          <img src="img/photo-2-mobile@1x.jpg" width="" height="" alt="" class="media-item__image">
         </a>
 
-        <div class="media-item__description">
-          <div class="media-item__title">Местная растительность</div>
-          <div class="media-item__author">Автор фото: Сергей</div>
-        </div>
+        <div class="media-item__bottom-row">
+          <div class="media-item__description">
+            <div class="media-item__title">Местная растительность</div>
+            <div class="media-item__author">Автор фото: Сергей</div>
+          </div>
 
-        <div class="media-item__likes">
-          <button class="media-item__likes-btn"></button>
-          <a href="#" class="media-item__likes-count">143</a>
+          <div class="media-item__likes">
+            <a href="img/icon-like.svg" class="media-item__likes-count"><img src="img/icon-like.svg" alt="">143</a>
+          </div>
         </div>
       </article>
 
@@ -82,14 +84,16 @@
           <img src="img/photo-3-mobile@1x.jpg" width="280" height="280" alt="" class="media-item__image">
         </a>
 
-        <div class="media-item__description">
-          <div class="media-item__title">Дорога на север</div>
-          <div class="media-item__author">Автор фото: Петр</div>
-        </div>
 
-        <div class="media-item__likes">
-          <button class="media-item__likes-btn"></button>
-          <a href="#" class="media-item__likes-count">96</a>
+        <div class="media-item__bottom-row">
+          <div class="media-item__description">
+            <div class="media-item__title">Дорога на север</div>
+            <div class="media-item__author">Автор фото: Петр</div>
+          </div>
+
+          <div class="media-item__likes">
+            <a href="img/icon-like.svg" class="media-item__likes-count"><img src="img/icon-like.svg" alt="">96</a>
+          </div>
         </div>
       </article>
 
@@ -99,14 +103,15 @@
           <img src="img/photo-4-mobile@1x.jpg" width="280" height="280" alt="" class="media-item__image">
         </a>
 
-        <div class="media-item__description">
-          <div class="media-item__title">Мост дьявола</div>
-          <div class="media-item__author">Автор фото: Антон</div>
-        </div>
+        <div class="media-item__bottom-row">
+          <div class="media-item__description">
+            <div class="media-item__title">Мост дьявола</div>
+            <div class="media-item__author">Автор фото: Антон</div>
+          </div>
 
-        <div class="media-item__likes">
-          <button class="media-item__likes-btn"></button>
-          <a href="#" class="media-item__likes-count">254</a>
+          <div class="media-item__likes">
+            <a href="img/icon-like.svg" class="media-item__likes-count"><img src="img/icon-like.svg" alt="">254</a>
+          </div>
         </div>
       </article>
     </div>
@@ -114,28 +119,26 @@
 
     <article class="video">
       <b class="video__title">Все еще сомневаетесь?</b>
-      <div class="video__description">Смотрите видеопрезентацию и скорее за билетами,
+        <div class="video__description">Смотрите видеопрезентацию и скорее за билетами,
          пока они не подорожали в очередной раз!</div>
 
 
       <div class="video__item">
-        <figure class="video__item-picture">
-          <img src="img/video-mobile@1x.jpg" width="280" height="280" alt="" class="video__item-image">
-        </figure>
+        <div class="video__item-picture"></div>
+
+            <div class="video-controls video__video-controls">
+                <div class="video-controls__progress-info video-controls__progress-info--open">
+                    <button class="video-controls__repeat-btn"><img src="img/icon-video-replay.svg" alt=""></button>
+
+                    <div class="video-controls__progress-bar">
+                      <div class="video-controls__scrubber-btn"></div>
+                    </div>
 
 
-        <div class="video-controls video__video-controls">
-          <div class="video-controls__progress-info video-controls__progress-info--open">
-            <div class="video-controls__progress-bar">
-              <div class="video-controls__scrubber-btn"></div>
+                <button class="video-controls__subtitles-btn"><img src="img/icon-video-subtitles.svg" alt=""></button>
+                <button class="video-controls__fullscreen-btn"><img src="img/icon-video-fullscreen.svg" alt=""></button>
             </div>
-          </div>
-
-          <div class="video-controls__menu">
-            <button class="video-controls__repeat-btn"></button>
-            <button class="video-controls__subtitles-btn"></button>
-            <button class="video-controls__fullscreen-btn"></button>
-          </div>
+            </div>
         </div>
       </div>
     </article>
@@ -143,22 +146,20 @@
 
 
    <footer class="page-footer">
-        <div class="page-footer__hashtag">
-           <a href="#">#visitsedona</a>
-        </div>
+        <a  class="page-footer__hashtag" href="#">#visitsedona</a>
 
         <div class="page-footer__social-links">
 
-        <a href="#" class="social-btn social-btn--twitter">Мы в Твиттере</a>
-        <a href="#" class="social-btn social-btn--facebook">Мы в Фейсбук</a>
-        <a href="#" class="social-btn social-btn--youtube">Мы на Ютубе</a>
+        <a href="#" class="social-btn social-btn--twitter"><img src="img/icon-twitter.svg" alt="">Мы в Твиттере</a>
+        <a href="#" class="social-btn social-btn--facebook"><img src="img/icon-facebook.svg" alt="">Мы в Фейсбук</a>
+        <a href="#" class="social-btn social-btn--youtube"><img src="img/icon-youtube.svg" alt="">Мы на Ютубе</a>
 
         </div>
 
        <address class="copyright page-footer__copyright">
           <span class="copyright__text">Разработано</span>
           <a class="copyright__link" href="https://htmlacademy.ru/">
-          <img src="#" alt="htmlacademy" class="htmlacademy"></a>
+          <img src="img/logo-htmlacademy.svg" alt="htmlacademy" class="htmlacademy"></a>
 
        </address>
 

@@ -1,29 +1,34 @@
 
-@import "basic/normalize";
-@import "basic/variables";
-@import "basic/fonts";
-@import "basic/mixins";
+@import "general/normalize";
+@import "general/variables";
+@import "general/fonts";
+@import "general/mixins";
+@import "general/body";
 
-@import "block/body";
-@import "block/content-container";
-@import "block/copyright";
-@import "block/feature-picture";
-@import "block/feature";
-@import "block/features-header";
-@import "block/features-block";
-@import "block/feedback-form";
-@import "block/feedback-header";
-@import "block/page-footer";
-@import "block/main-nav";
-@import "block/map";
-@import "block/media-header";
-@import "block/media-item";
-@import "block/media-items";
-@import "block/page-header";
-@import "block/page-promo";
-@import "block/search";
 @import "block/site-wrapper";
-@import "block/video-controls";
-@import "block/video";
+@import "block/page-header";
+@import "block/main-nav";
+@import "block/page-promo";
 @import "block/btn";
+@import "block/page-footer";
 @import "block/social-btn";
+@import "block/copyright";
+
+@import "block/features-header";
+@import "block/features-row";
+@import "block/feature";
+@import "block/feature-picture";
+@import "block/search";
+@import "block/map";
+
+@import "block/feedback-header";
+@import "block/feedback-form";
+@import "block/popup";
+
+@import "block/media-header";
+@import "block/media-items";
+@import "block/media-item";
+@import "block/video";
+@import "block/video-controls";
+
+

@@ -1,16 +1,42 @@
 .media-item {
   padding: 20px;
-   border-bottom: 1px solid #e5e5e5;
-  @include block-outline(2px, dashed, blue);
+  border-bottom: 1px solid #e5e5e5;
   }
 
 .media-item__link img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .media-item__description {
-  margin-top: 20px;
+  padding-top: 20px;
 }
+
+.media-item__title {
+  font-size: 14px;
+  line-height: 1.3;
+  font-family: $font-bold;
+}
+.media-item {
+  padding: 20px;
+
+  border-bottom: 1px solid #e5e5e5;
+
+}
+
+
+.media-item__link img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.media-item__description {
+  padding-top: 20px;
+}
+
 
 .media-item__title {
   font-size: 14px;
@@ -23,22 +49,131 @@
   font-size: 14px;
   line-height: 24px;
   color: $secondary-text-color;
-  text-transform: none;
 }
 
 
 .media-item__likes-count {
   padding-left: 15px;
+
   font-size: 14px;
   line-height: 24px;
   font-family: $font-bold;
   color: #000000;
   text-decoration: none;
+  margin-right: -10px;
+
+  background-color: inherit;
+  border: none;
+  outline: none;
+  opacity: 0.3;
+
+  fill: #000000;
   cursor: pointer;
 }
 
 
+@media #{$tablet-widths} {
+  .media-item {
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0;
+
+    background-color: $input-background;
+    border: 0;
+
+    &--wide {
+      flex-basis: 100%;
+
+      & .media-item__likes {
+        margin-right: 25px;
+      }
+
+      & .media-item__link img {
+        height: 400px;
+      }
+    }
+  }
 
 
+  .media-item__link {
+    flex-basis: 100%;
+  }
 
 
+  .media-item__link img {
+    width: 100%;
+    height: 267px;
+  }
+
+
+  .media-item__bottom-row {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+
+  .media-item__description {
+    flex-basis: 60%;
+    padding-left: 20px;
+  }
+
+
+  .media-item__author {
+    text-transform: none;
+  }
+
+
+  .media-item__likes {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 28px;
+  }
+}
+
+
+@media #{$desktop-widths} {
+  .media-item {
+    position: relative;
+
+    flex-basis: 33.3333333%;
+    padding-bottom: 0;
+
+    &--wide {
+      flex-basis: 100%;
+    }
+  }
+
+
+  .media-item__bottom-row {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  .media-item__title {
+    color: white;
+  }
+
+
+  .media-item__author {
+    color: white;
+  }
+
+
+  .media-item__likes-btn {
+    opacity: 1;
+
+    fill: #ffffff;
+  }
+
+
+  .media-item__likes-count {
+    color: #ffffff;
+  }
+}
