@@ -1,140 +1,789 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Седона</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="site-wrapper">
-      <header class="page-header">
-          <nav class="main-nav main-nav--opened">
+<html lang="ru"  class="">
+	<head>
 
-            <ul class="main-nav__list">
-              <li class="main-nav__item main-nav__item--active"><a href="index.html" class="main-nav__link">Главная</a></li>
-              <li class="main-nav__item"><a href="photo.html" class="main-nav__link">Фото и видео</a></li>
-              <li class="main-nav__item"><a href="form.html" class="main-nav__link">Форма отзыва</a></li>
-              <li class="main-nav__item"><a href="https://htmlacademy.ru/#" class="main-nav__link">Html academy</a></li>
-            </ul>
-      	  </nav>
+		<title>LP Test</title>
+		<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-         <div class="page-header__logo-wrapper">
-          <a href="index.html" class="page-header__logo-link">
-              <img src="img/logo-sedona-mobile.svg" width="102" height="83" alt="logo">
-          </a>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
 
-          <button class="page-header__toggle" type="button">
-      	     <img src="img/icon-menu.svg" width="25" height="25" alt="Menu">
-      		</button>
-          </div>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	</head>
 
-      </header>
+	<body class="body">
+		<header class="main-header">
+			<div class="container-fluid">
+				<div class="main-header-top clearfix">
+					<div class="main-header-top__logo">
+						<img src="img/logo-check.png" alt="logo" width="340" height="47">
+					</div>
+					<div class="main-header-top__contacts">
+						<span>+7 495 133 82 24</span>
+						<span>+38 096 916 13 88</span>
+					</div>
+				</div>
+			</div>
 
- 	  <div class="page-promo">
-      <img src="img/text-sedona-index.svg" width="320" height="260" class="page-promo__image" alt="Sedona">
- 	  </div>
+				<div class="main-header-bottom container-fluid">
 
- 	  <div class="features-header">
- 		  <h2 class="features-header__title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
- 		  <p class="features-header__text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
- 	  </div>
+					<div class="text-center">
+						<h1 class="text-bold">Получи участие в онлайн
+							<span class="text-lightbold">ворк-шопе по старту</span>   <span class="text-whitebold">дела жизни</span>
+							<span class="text-superbold">«Экстремальный Старт»</span>
+							<span class="text-normal">и персональную 50 минутную коуч-сессию</span>
+							<span class="text-superbold">«Свидание с Судьбой»</span><br>
+							<span class="text-normal">в одном пакете</span><br>
+							<span class="text-upperbold text-orange">со скидкой в 60%</span>
+						</h1>
+					</div>
 
-    <div class="features-row">
-      <div class="feature feature--blue feature--bg-mask">
-     		<h2 class="feature__title">Настоящий городок </h2>
-        <span class="feature__number"> -№1-</span>
-     		<p class="feature__description">Седона не атракцион для туристов, там течет своя жизнь.</p>
-      </div>
+					<div class="main-header-offer">
+							<p class="offer-text"><span class="text-blackbold">
+								Внимание:</span>   Специальное Летнее Предложение
+								действует до <span class="offer-date text-orange">2 ноября 20:00 МСК</span>
+							</p>
+					</div>
+					<div class="btn-block">
+						<a href="#" class="reg-btn">Регистрация</a>
+					</div>
+				</div>
+		</header>
 
-      <figure class="feature-picture">
-        <img src="img/photo-city@1x.jpg" height="260" alt="" class="feature-picture__image">
-      </figure>
-     </div>
+			<main class="page-main">
 
-    <div class="features-row">
- 	    <div class="feature feature--icon feature--icon-house">
-        <h2 class="feature__title">Жилье</h2>
-        <p class="feature__description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-      </div>
+				<div class="page-promo">
+					<h2 class="info-block">Согласно данным Международной федерации кончинга <br>при работе с коучем у клиентов достигаются <br>	следующие результаты</h2>
+					<img src="img/diagramme-triangles.png" class="page-promo__image" alt="">
+				</div>
+				<h2 class="info-block">Как наличие личного коуча повышает <br>шансы на успех в бизнесе на 47%, <br>	а прибыль – на 92%.</h2>
 
-      <div class="feature feature--icon feature--icon-gift">
-        <h2 class="feature__title">Сувениры</h2>
-        <p class="feature__description">Не только китайского, но и местного производства!</p>
-      </div>
+<!-- block1 -->
 
-      <div class="feature feature--icon feature--icon-food">
-        <h2 class="feature__title">Еда</h2>
-        <p class="feature__description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-      </div>
-    </div>
+				<div class="research clearfix">
+					<div class="site-wrapper">
+						<div class="research-left-col">
+							<p class="title">	Наличие личного коуча <br> у предпринимателя </p>
+							<p class="uppertext">повышает шансы на успех в бизнесе на <span class="text-orange">47%,</span> <br>а прибыль – на <span class="text-orange">92%.</span>	</p>
+							<p class="research-tiny-text">
+								Результаты исследования, проведенного американской <br>компанией <strong style="text-decoration: underline">MicroMentor.org</strong>  показывают:	</p>
+							<p  class="research-brackets-text">
+										По результатам исследования те, кто получал помощь	коуча, повысили свою ежемесячную прибыль на <strong>106%.</strong>
+										А те, кто работали самостоятельно – всего на <strong>14%.</strong>
+							</p>
 
-    <div class="features-row">
-      <div class="feature feature--blue">
-        <h2 class="feature__title">Там есть мост дьявола</h2>
-        <span class="feature__number">- №2 -</span>
-        <p class="feature__description">Да, по нему можно пройти, если вы осмелитесь</p>
-      </div>
+						</div>
 
-   	  <figure class="feature-picture">
-        <img src="img/photo-bridge@1x.jpg" height="260" alt="" class="feature-picture__image">
-      </figure>
-    </div>
+						<div class="research-right-col">
+							<img src="img/diagramme-rectangles.png" width="660" height="550" class="research-right-col__image" alt="">
+						</div>
+					</div>
+				</div>			<!-- site-wrapper -->
 
-    <div class="features-row">
-        <div class="feature feature--gray">
-       	  <h2 class="feature__title">Небольшая площадь</h2>
-          <span class="feature__number">— №3 —</span>
-          <p class="feature__description">Все достопримечательности находятся очень близко</p>
-        </div>
+<!-- block2 <-->
+					<div class="feedback">
+						<div class="site-wrapper">
+								<div class="feedback-spesial-bg clearfix">
+									<div class="feedback-info">
+										<p class="title">		«Первый финансовый год составил
+										<span class="text-orange">
+										3,4 млн. рублей.</span>
+										Второй – <span class="text-orange">17,5.</span><br>
+										Сейчас за полгода <span class="text-orange">9,5.</span>
+										</p>
+										<p class="feedback__text uppertext">
+											Это <span class="text-orange">на 45% больше</span> чем в прошлом		<br>году за этот же период»
+										</p>
+										<p class="feedback__autor">
+											Андрей Ковалев, г. Санкт-Петербург
+										</p>
+									</div>
 
-        <div class="feature feature--gray">
-          <h2 class="feature__title">Красивая дорога</h2>
-          <span class="feature__number">— №4 —</span>
-          <p class="feature__description">Ехать в седону из Лас-Вегаса совсем не скучно!</p>
-        </div>
+									<div class="feedback-photo">
+										<img src="img/photo-kovalev.jpg" width="265" height="340" class="feedback-photo__image" alt="Ковалев">
+									</div>
+								</div>
+						</div>						<!-- site-wrapper -->
+					</div>
 
-        <div class="feature feature--gray">
-          <h2 class="feature__title">Мало туристов</h2>
-          <span class="feature__number">— №5 —</span>
-          <p class="feature__description">Большинство едет в гранд каньон и толпится там</p>
-        </div>
+					<!--  block3 -->
 
-    </div>
+						<div class="feedback__paragraf">
+								<p>
+									Проходил почти все программы, которые появлялись у Ивана. Работал несколько раз по три месяца с индивидуальным коучем.</p>
+									<p>Первый финансовый год составил 3,4 млн. рублей. Второй – 17,5. Сейчас за полгода 9,5. Это на 45% больше чем в прошлом году за этот же период.</p>
+									<p>Покупка новой машины для жены и большой квартиры для всей семьи. Сейчас подходит к концу третий год официальной работы компании.</p>
+									<p>Создана структура компании и после долгого отбора найдены хорошие сотрудники. Можно сказать, что процентов на 90 я освобожден сейчас от оперативной деятельности.						</p>
 
-    <div class="search">
-      <b class="search__title">Заинтересовались?</b>
-      <p class="search__description">Укажите предполагаемые даты поездки и
-      мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <button class="btn search__btn">Найти гостиницу</button>
-    </div>
-
-
-    <div class="map">
-      <div class="map__canvas"></div>
-    </div>
-
-
- 	    <footer class="page-footer">
-        <a  class="page-footer__hashtag" href="#">#visitsedona</a>
+							</div>
 
 
-				<div class="page-footer__social-links">
 
-				<a href="#" class="social-btn social-btn--twitter"><img src="img/icon-twitter.svg" alt="">Мы в Твиттере</a>
-        <a href="#" class="social-btn social-btn--facebook"><img src="img/icon-facebook.svg" alt="">Мы в Фейсбук</a>
-        <a href="#" class="social-btn social-btn--youtube"><img src="img/icon-youtube.svg" alt="">Мы на Ютубе</a>
+					<div class="feedback">
+						<div class="site-wrapper">
+								<div class="feedback-bg clearfix">
+									<div class="feedback-info">
+										<p class="title">	«Для меня первая <br>консультация стала
+										<span class="text-orange">
+										поворотным событием <br>в моем деле»</span>
 
+										<p class="feedback__autor">
+											Ольга Патракова, г. Москва
+										</p>
+									</div>
+
+									<div class="feedback-photo">
+										<img src="img/photo-patrakova.jpg" width="265" height="340" class="feedback-photo__image" alt="Патракова">
+									</div>
+								</div>
+						</div>						<!-- site-wrapper -->
+					</div>
+
+
+					<!-- block 5 -->
+					<div class="feedback__paragraf">
+								<p>Для меня первая консультация стала поворотным событием в моем деле.</p>
+									<p>Как будто бы я вышла за пределы своей реальности, посмотрела не просто сверху, а именно из другого измерения, измерения не шашлычника, а владельца бизнеса.</p>
+									<p>Что оказывается, все раскладывается по полочкам легко и непринужденно.</p>
+									<p>Для меня эта консультация - открывшийся третий глаз или четвертое измерение. Это не просто прорыв, это как внезапно обнаружить, что ты умеешь летать.</p>
+					</div>
+
+								<!-- block 6 -->
+
+
+								<!-- block 7 -->
+
+								<p class="info-block">Кто вы такие GoldCoach, и почему <br>я должен вам доверять?</p>
+
+								<div class="before-video-text">
+									<p>Компания GoldCoach существует уже более <strong>6 лет на рынке</strong></p>
+									<p>Мы суммарно провели более <strong>20 000 часов коучинга</strong></p>
+									<p>Уже более <strong>30 000 предпринимателей</strong> убедились в эффективности наших систем и стратегий</p>
+									<p>У нас работает команда из 8 профессиональных коучей и экспертов, мы накопили <strong>в 10х больше опыта и методик,</strong> чем любой отдельно взятый специалист
+									</p>
+									<h3 class="video-title">смотрите сами</h3>
+								</div>
+
+								<div class="video">
+<!-- <video controls preload="metadata" width="845" height="475" src="https://www.youtube.com/watch?v=IvEP5XbWvUU">		 -->
+
+									<iframe width="830" height="460" src="https://www.youtube.com/embed/IvEP5XbWvUU" frameborder="0" allowfullscreen></iframe>
+										<!-- </video> -->
+								</div>
+
+								<div class="page-promo">
+									<p class="info-block">Факты о GoldCoach</p>
+									<img src="img/diagramme-circle.png" class="page-promo__image" alt="">
+								</div>
+
+																	<!-- block 11 -->
+								<div class="profits">
+									<p class="info-block">Какие проблемы решает персональная коуч сессия <br>«Свидание с Судьбой» от GoldCoach? </p>
+									<div class="site-wrapper">
+										<div class="title">
+											Какие проблемы решает персональная коуч сессия <br><span class="text-orange">«Свидание с Судьбой»</span> от GoldCoach?
+										</div>
+
+										<div class="profit-columns clearfix">
+											<div class="profit-columns__left">
+													<p>	Избегаешь выполнения дел тем, что ищешь больше информации?</p>
+													<p>Составляешь планы, размышляешь, говоришь о каких-то великих делах, но при этом ничего не происходит?</p>
+													<p>Борешься с внутренним сопротивлением?</p>
+													<p>Утром ты оттягиваешь начало рабочего дня, потому что тебя ожидает куча сложных и неприятных задач?</p>
+													<p>Постоянно не уверен в будущем твоего бизнеса и, как следствие - твоей семьи?</p>
+													<p>Никак не освободишься от нескончаемой рутины в своем бизнесе?</p>
+													<p>С большим трудом доводишь дела до конца?</p>
+
+											</div>
+
+											<div class="profit-columns__right">
+													<p>Критикуешь других и все вокруг себя, считаешь, что мир – несправедлив?</p>
+													<p>Твой бизнес забирает все твое время, и приносит меньше денег, чем ты хотел бы?</p>
+													<p>Тебе катастрофически не хватает времени, ты работаешь с утра до ночи и приходишь домой совершенно разбитым и усталым?</p>
+													<p>Больше времени проводишь за тем, что готовишься к работе, говоришь о работе, чем непосредственно работаешь?</p>
+													<p>Запутался и понятия не имеешь, с чего начать?</p>
+
+											</div>
+
+										</div>
+									</div>						<!-- site-wrapper -->
+								</div>
+
+<!-- block 13-->
+								<div class="blue-bg">
+
+									<p class="info-block">Наши профессионалы</p>
+
+									<div class="site-wrapper">
+										<div class="profi__title title">
+											С Тобой Персонально 1-1 Будет Работать<br>
+											<span class="text-orange">Один Из Наших Профессионалов</span>
+										</div>
+ <!-- Carousel
+    ================================================== -->
+    				<div id="slider">
+									<div  id="slider_box">
+				      <ul class="carousel-inner clearfix" role="listbox">
+												<li class="item active">
+													<a href="#"><img src="img/prof-1.jpg"  width="193" height="218"   class="profi-card__image" alt=""></a>
+													<div class="profi-card__desc">
+														<p><strong>Ирина Коробская</strong></p>
+														<p>Руководитель коучей <strong>ROI: 595,5%</strong></p>
+														<p>Эксперт по психологической работе с убеждениями</p>
+													</div>
+												</li>
+
+												<li class="item">
+													<a href="#"><img src="img/prof-2.jpg" width="193" height="218"  class="profi-card__image"  alt=""></a>
+													<div class="profi-card__desc">
+														<p><strong>Елена Крысан</strong></p>
+														<p>Профессиональный ​Коуч
+														Подотчетности	<strong>ROI: 387,1%</strong></p>
+														<p>Эксперт по продажам, постановке целей и мотивации</p>
+													</div>
+
+<!-- hover   w="280" eight="320"-->
+												</li>
+
+												<li  class="item">
+													<a href="#"><img src="img/prof-3.jpg"   width="193" height="218"  class="profi-card__image" alt=""></a>
+													<div class="profi-card__desc">
+														<p class="profi-card__name"><strong>Алина Михайлова</strong></p>
+														<p class="profi-card__desc">Профессиональный Коуч Подотчетности
+														<strong>ROI: 305,4%</strong></p>
+														<p class="profi-card__desc">Трансформационный Кауч-Эксперт</p>
+													</div>
+
+												</li>
+
+												<li class="item">
+													<a href="#"><img src="img/prof-4.jpg"  width="193" height="218"   class="profi-card__image" alt=""></a>
+													<div class="profi-card__desc">
+													<p class="profi-card__name"><strong>Виктория Гусарева</strong></p>
+													<p class="profi-card__desc">Профессиональный Коуч Подотчетности
+													<strong>ROI: 326,6%</strong></p>
+													<p class="profi-card__desc">Эксперт по постановке стратегических целей и достижению результатов</p>
+												</li>
+
+												<li class="item">
+													<a href="#"><img src="img/prof-5.jpg" width="193" height="218"  class="profi-card__image"  alt=""></a>
+													<div class="profi-card__desc">
+													<p class="profi-card__name"><strong>Андрей Выдрик</strong></p>
+													<p class="profi-card__desc">Коуч-Эксперт Подотчетности
+													<strong>ROI: 338,1%</strong></p>
+													<p class="profi-card__desc">Эксперт по поиску призвания. Помогает людям реализовать себя в жизни</p>
+												</li>
+
+												<li class="item">
+													<a href="#"><img src="img/prof-6.jpg" width="193" height="218"  class="profi-card__image"  alt=""></a>
+													<div class="profi-card__desc">
+													<p class="profi-card__name"><strong>Богдан Куринный</strong></p>
+													<p class="profi-card__desc">Коуч-Эксперт Подотчетности
+													<strong>ROI: 508,2%</strong></p>
+													<p class="profi-card__desc">Профессиональный руководитель-практик, тренер, бизнес-коуч</p>
+
+												</li>
+
+												<li  class="item">
+													<a href="#"><img src="img/prof-7.jpg" width="193" height="218"  class="profi-card__image" alt=""></a>
+													<div class="profi-card__desc">
+													<p class="profi-card__name"><strong>Сергей Качановский</strong></p>
+													<p class="profi-card__desc">Профессиональный Коуч Подотчетности
+													<strong>ROI: 306,8%</strong></p>
+													<p class="profi-card__desc">Предприниматель, эксперт по выстраиванию и автоматизации бизнес-процессов</p>
+
+												</li>
+
+												<li class="item">
+													<a href="#"><img src="img/prof-8.jpg" width="193" height="218"  class="profi-card__image"  alt=""></a>
+													<div class="profi-card__desc">
+													<p class="profi-card__name"><strong>Маргарита Третьякова</strong></p>
+													<p class="profi-card__desc">Профессиональный Коуч Подотчетности
+													<strong>ROI: 301,9%</strong></p>
+													<p class="profi-card__desc">Эксперт по личной эффективности и бизнес-тренер</p>
+
+												</li>
+											</ul>
+										</div>
+
+										<div id="nav_slider clearfix">
+           <div id="left_nav"></div>
+           <div id="right_nav"></div>
+       			</div>
+
+							</div>
+
+							<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+
+							$(document).ready(function(){
+							  $('.carousel-inner').slick({
+							  slidesToShow: 5,
+							  slidesToScroll: 1,
+							  autoplay: true,
+							  autoplaySpeed: 2000,
+									});
+							});
+    </script>
+					</div>
+<!-- =============================================== -->
+							<div class="white-text-block">
+								<div class="text-wrapper">
+									<p>Это индивидуальная работа с опытным коучем. На счету которого более 530 проведенных консультаций.</p>
+									<p>Коуч проведет тебя по процессу, где ты увидишь свое истинное предназначение (в арсенале коуча более 12 различных техник для этого, в том числе специальных медитаций и визуализаций).</p>
+									<p>Предназначение может выявить только сам человек! Никто другой.</p>
+									<p>Мы в GoldCoach не верим в определение предназначения по дате рождения, знакам зодиака и другим вещам, потому что предназначение открывается только самому человеку и никому более!</p>
+									<p>Ты не можешь найти предназначение через тесты, готовые решения, шаблоны, астрологов. Искать нужно в себе.</p>
+								</div>
+							</div>
+
+							<!-- block 16 -->
+
+							<div class="profits">
+								<p class="info-block">Какие Выгоды Несет Коуч- Сессия <br>«Свидание С Судьбой»?</p>
+									<div class="site-wrapper">
+										<div class="title">
+											Какие Выгоды Несет Коуч- Сессия<br><span class="text-orange">«Свидание С Судьбой»?</span>
+										</div>
+
+										<div class="profit-columns clearfix">
+											<div class="profit-columns__left">
+												<p>Четко понять, чем тебе нужно заниматься в жизни</p>
+												<p>Открыть, какого вида деятельности тебе нужно точно избегать</p>
+												<p>В голове образуется полный порядок</p>
+												<p>Обрести фокусировку и концентрацию</p>
+												<p>Значительно поднять свою энергетику и притягательность</p>
+												<p>Негатив сменить на позитив</p>
+												<p>Значительно поднять уровень счастья</p>
+												<p>Наконец-то полностью реализовать себя</p>
+
+											</div>
+
+											<div class="profit-columns__right">
+												<p>Добавить мощный приток вдохновения и энтузиазма</p>
+												<p>Забыть о таких понятиях, как стрессы, нытье и депрессии</p>
+												<p>Получить постоянное чувство счастья, потому что ты соединишься со своими ценностями</p>
+												<p>Начать работать с радостью и интересом</p>
+												<p>Обрести постоянно высокий уровень энергетики</p>
+												<p>Обрести жизнерадостность и веселье</p>
+												<p>Значительно повысить уверенность в себе и своих возможностях</p>
+
+											</div>
+
+										</div>
+									</div>						<!-- site-wrapper -->
+								</div>
+
+								<!-- block 16 -->
+
+								<div class="logo-bg white-bg">
+									<p class="info-block">Что такое ворк-шоп «Экстремальный Старт» <br>и из чего он состоит?</p>
+									<div class="site-wrapper">
+
+										<div class="profit-columns clearfix">
+											<div class="title">
+											«Экстремальный Старт» - это<br>
+											3 недельный интерактивный<br><span class="text-orange">
+											ворк-шоп по старту дела жизни:</span>
+											</div>
+
+											<div class="profit-columns__left ">
+
+												<p>4 групповых коучинговых созвонов по 90-120 минут каждый</p>
+												<p>1 групповой коучинг "Ответы на вопросы" (90 минут)</p>
+												<p>4 практических пошаговых задания</p>
+												<p>наставника и сообщество целеустремленных людей</p>
+												<p>Тест по определению сильных сторон за 12 простых вопросов</p>
+												<p>План по созданию дизайна жизни за 64 дня</p>
+												<p>24/7 доступ к архивам программы</p>
+												<p>3 дополнительных ценных бонуса: запись вебинара "11 Токсичных Манер Поведения", Курс "План Б Генератор Формула", тренинг "ТОП1% Старт”</p>
+											</div>
+
+											<div class="profit-columns__right column-right__image">
+												<img src="img/logo-middle.png" width="380" height="400" class="" alt="">
+											</div>
+
+									</div>						<!-- site-wrapper -->
+								</div>
+															<!-- block 17 -->
+								<div class="blue-bg">
+									<div class="site-wrapper clearfix">
+											<div class="offer-left-col">
+												<p class= "title">
+													Только до 2 ноября
+													20:00 МСК действует <span class="text-orange">специальное летнее
+													предложение</span>
+													</p>
+												<p class="price title">ВСЕГО <span class="text-orange">$57</span></p>
+											</div>
+
+											<div class="offer-right-col">
+												<p class="offer-text"><span class="text-blackbold">Внимание:</span> <span class="offer-date text-orange">2 ноября 20:00 МСК</span><br>
+                   это предложение уйдет!</p>
+												<a href="popup" class="reg-btn">Регистрация</a>
+												<p class="offer-subtitle">Воспользоваться летним предложением от GoldCoach</p>
+												</div>
+									</div>
+								</div>						<!-- site-wrapper -->
+															<!-- block 18 -->
+
+								<p class="info-block">Когда начало?</p>
+								<div class="start-block">
+
+										<p class="white-uppercase">Старт Ворк-Шопа «Экстремальный Старт» <span class="text-orange">2 ноября 20:00 МСК</span><br>
+										Коуч-сессию ты сможешь пройти в удобное время<br>
+										с 2 по 15 ноября <span style="color: #959595">(Всего 100 мест). </span></p>
+									</div>
+
+
+								<!-- block 19 -->
+								<div class="blue-bg">
+										<div class="profit-columns site-wrapper clearfix">
+
+												<h2 class="profit-header__left title">		Всего за 3 недели ты увидишь<br><span class="text-orange"> колоссальный эффект:</span>	</h2>
+
+												<div class="profit-columns__right">
+													<p>	Обретешь фокус и начнешь действовать</p>
+													<p>Избавишься от бардака и хаоса в мозгах</p>
+													<p>Удвоишь продуктивность</p>
+											</div>
+
+										</div>
+									</div>						<!-- site-wrapper -->
+
+
+								<!-- block 20 -->
+								<div class="profits">
+									<div class="site-wrapper">
+										<div class="title">
+											ТАКЖЕ, Тебя Ждут<br><span class="text-orange">
+											Следующие Выгоды:</span>
+										</div>
+
+										<div class="profit-columns clearfix">
+											<div class="profit-columns__left">
+												<p>Четко поймешь, чем тебе нужно заниматься в жизни</p>
+												<p>Откроешь, какого вида деятельности тебе точно нужно избегать</p>
+												<p>В голове образуется полный порядок</p>
+												<p>Обретешь фокус и концентрацию</p>
+												<p>Значительно поднять свою энергетику и притягательность</p>
+												<p>Негатив сменить на позитив</p>
+												<p>Значительно поднять уровень счастья</p>
+												<p>Наконец-то полностью реализовать себя</p>
+												<p>Добавить мощный приток вдохновения и энтузиазма</p>
+
+											</div>
+
+											<div class="profit-columns__right">
+												<p>		Забыть о таких понятиях, как стрессы, нытье и депрессии</p>
+												<p>	Получить постоянное чувство счастья, потому что ты соединишься со своими ценностями</p>
+												<p>Начать работать с радостью и интересом</p>
+												<p>Стать позитивным и решительным человеком</p>
+												<p>Обрести жизнерадостность и веселье</p>
+												<p>Значительно повысить уверенность в себе и своих возможностях</p>
+												<p>Начать быстро принимать правильные решения</p>
+
+											</div>
+
+										</div>
+									</div>						<!-- site-wrapper -->
+								</div>
+
+								<!-- block 21 -->
+								<div class="blue-bg profit-columns">
+									<div class="site-wrapper">
+										<div class="title">
+											А также:
+										</div>
+
+										<div class="profit-columns clearfix">
+											<div class="profit-columns__left">
+												<p>Перестанешь откладывать все на потом и бороться с внутренним сопротивлением</p>
+													<p>Начнешь получать удовольствие от своего бизнеса!</p>
+													<p>Наконец-то получишь те результаты, о которых всегда мечтал!</p>
+													<p>Обретешь стабильность в завтрашнем дне, потому что твой бизнес пойдет в гору… и перестанешь понапрасну нервничать и терзать себя сомнениями…</p>
+
+											</div>
+
+											<div class="profit-columns__right">
+												<p>	Узнаешь то, что знают УСПЕШНЫЕ бизнесмены, и не знают страдающие</p>
+												<p>Станешь счастливым и удовлетворенным, потому что у тебя больше не будет кризисов, которые тебя топят…</p>
+												<p>Начнешь свой бизнес, если ты до сих пор не начал его, но уже давно хочешь и мечтаешь о своем деле</p>
+
+											</div>
+
+										</div>
+									</div>						<!-- site-wrapper -->
+								</div>
+
+								<!-- block 20 -->
+
+
+								<!-- block2 -->
+								<div class="feedback">
+								<h2 class="info-block">Отзывы</h2>
+									<div class="site-wrapper">
+											<div class="feedback-bg clearfix">
+												<div class="feedback-info">
+													<p class="title">«За последний месяц <br>
+																мои доходы выросли<br>
+													<span class="text-orange">в 18 раз»</span> </p>
+
+													<p class="feedback__autor">
+													Дарина Курбатова, г. Липецк
+													</p>
+											</div>
+											<div class="feedback-photo">
+												<img src="img/photo-kurbatova.jpg" class="feedback-promo__image" alt="Дарина Курбатова">
+											</div>
+
+										</div>
+									</div>						<!-- site-wrapper -->
+								</div>
+
+								<!--  block3 -->
+								<div class="feedback__paragraf">
+										<p>«Цель на коучинге я ставила 47 тыс. руб. личного дохода. Осталось заработать всего  52 руб. )) и она будет достигнута! Сегодня уже переведут несколько большую сумму)).</p>
+										<p>Новая сфера деятельности оказалась очень востребованной и даже мой уровень реально приносит ценность людям — они искренне радуются и благодарят. Могу смело сказать, что я счастлива!»</p>
+								</div>
+
+									<!-- block2 -->
+								<div class="feedback">
+										<div class="site-wrapper">
+												<div class="feedback-bg clearfix">
+													<div class="feedback-info">
+														<p class="title">«Мой доход увеличился
+														<span class="text-orange">на 2000$ в месяц»</span></p>
+														<p class="feedback__autor">Артур Гидзик, г. Липецк</p>
+													</div>
+
+												<div class="feedback-photo">
+													<img src="img/photo-gidzik.jpg" class="feedback-promo__image" alt="Артур Гидзик">
+												</div>
+
+											</div>
+										</div>						<!-- site-wrapper -->
+									</div>
+
+									<!--  block3 -->
+									<div class="feedback__paragraf">
+										<p>
+											«До работы с коучем у меня была полная неопределённость в бизнесе. Множество непонятных мне процессов. Пройдя коучинг  ситуация кардинально изменилась.</p>
+										<p>
+											Я достиг реально хороших результатов.</p>
+										<p>
+											Мой доход увеличился на 2000$ чистых в месяц. Также я организовал более 20 источников дохода. Заключил долгосрочные договора с компаниями.</p>
+										<p>
+											Следуя наставлениями и рекомендациям коуча, я получил за 3 месяца реальные результаты. Уверен, впереди меня ждет еще больше достижений.»
+										</p>
+									</div>
+
+					<!-- block2 -->
+									<div class="feedback">
+											<div class="site-wrapper">
+													<div class="feedback-bg clearfix">
+														<div class="feedback-info">
+															<p class="title">
+															«Мой доход в месяц
+															составлял не более 500$,
+															спустя 3 месяца эта цифра
+															<span class="text-orange">выросла до 3000$ в месяц»</span></p>
+															<p class="feedback__autor">Петр Пак, г. Ташкент</p>
+													</div>
+													<div class="feedback-promo">
+														<img src="img/photo-pak.jpg" class="feedback-promo__image" alt="Петр Пак">
+													</div>
+
+												</div>
+											</div>						<!-- site-wrapper -->
+										</div>
+
+										<!--  block3 -->
+										<div class="feedback__paragraf">
+											<p>«За 90 дней работы над бизнесом я получил в 2,5 раза больше клиентов, чем за год работы в бизнесе. Моя клиентская база не превышала 90 клиентов в месяц, всего за 60 дней количество клиентов выросло до 227 и это не предел.</p>
+											<p>Мой доход в месяц составлял не более 500$, спустя 3 месяца эта цифра выросла до 3000$ в месяц, что означает увеличение прибыли в 6 раз. За 3 месяца работы над собой я получил в 10 раз больше, чем за всю свою жизнь. Я стал уверенным, позитивным и счастливым!»</p>
+										</div>
+								<!-- block 23 -->
+
+										<p class="info-block">Мы даем 100% платиновую гарантию</p>
+										<div class="site-wrapper">
+
+											<p class="title">Мы даем 100% платиновую гарантию<br><span class="text-orange">
+												Что такое "Платиновая Гарантия"?</span></p>
+											<p class="sub-title">Это 5 Гарантий в Одной</p>
+
+											<hr>
+											<div class="guarantee">
+												<div class="guarantee-item">
+													<span>1</span>
+													<p>Что ты найдешь свои<br>сильные стороны</p>
+												</div>
+
+												<div class="guarantee-item">
+													<span>2</span>
+													<p>Что ты найдешь свое<br>Дело Жизни для<br>	которого ты был рожден</p>
+												</div>
+
+												<div class="guarantee-item">
+													<span>3</span>
+													<p>Что ты почувствуешь<br>	прилив энергии и счастья<br>			после коучинга</p>
+												</div>
+
+												<div class="guarantee-item">
+													<span>4</span>
+													<p>Что ты будешь в восторге<br>от процесса прохождения<br>			нашего ворк-шопа</p>
+												</div>
+
+												<div class="guarantee-item">
+													<span>5</span>
+													<p>Что ты останешься нашим<br>любимым клиентом даже<br>	после завершения ворк-шопа<br>и коучинга</p>
+												</div>
+											</div>
+								<hr>
+								<div class="site-wrapper">
+									<p class="guarantee-title text-orange">
+										Мы гарантируем результат при условии выполнения заданий <br>и прохождения коуч-сессии на 100%!</p>
+										<p class="guarantee-description">И даже если тебе просто не понравится слайд в презентации ворк-шопа<br> или голос твоего коуча - мы вернем тебе деньги без вопросов. </p>
+
+								</div>
+							</div>
+
+							<p class="info-block">Почему я делаю это сейчас?</p>
+
+							<div class="site-wrapper owner clearfix">
+									<h2 class="title">Почему я делаю это <br><span class="text-orange">сейчас?</span></h2>
+
+									<div class="owner-photo">
+										<img src="img/photo-boy.jpg" width="430" height="540" class="feedback-promo__image" alt="">
+									</div>
+
+									<div class="feedback__paragraf owner-text">
+										<p>Мне не комфортно говорить о себе. Это может вдохновить тебя начать свой путь. Действовать, несмотря на страх.</p>
+										<p>Пойми я ничем не отличаюсь от тебя.</p>
+										<p>Я родился в семье обычных рабочих. Бегал по улице босым и полуголодным. Я думал, что у меня нет талантов. Как и ты, возможно, думаешь сейчас.</p>
+										<p>У меня точно нет ничего особенного. У меня были мечты и желания. Я был полон страхов.</p>
+										<p>Я постоянно болел. Хотя при других натягивал искусственную улыбку притворяясь, что у меня все хорошо. Однако, в глубине души, я был очень несчастлив.</p>
+										<p>В один момент я перестал с этим мириться и принял решение пойти против правил общества и найти свое предназначение. С тех пор моя жизнь больше никогда не была такой как раньше…. </p>
+									</div>
+
+							</div>						<!-- site-wrapper -->
+													<!-- block 21 -->
+
+							<div class="comparison-columns clearfix">
+												<div class="comparison-columns__left blue-bg">
+													<h2 class="title">Моя жизнь <span class="text-orange">до<br></span> нахождения себя</h2>
+														<p>Плохое настроение</p>
+														<p>Частые стрессы, переходящие в депрессию</p>
+														<p>Нытье и жалость к себе</p>
+														<p>Скука</p>
+														<p>Разочарование</p>
+														<p>Нехватка средств на то, чтобы удовлетворить свои потребности</p>
+														<p>Низкая самооценка</p>
+														<p>Постоянный негатив</p>
+														<p>Раздражительность и злость на других людей</p>
+														<p>Ненавидел то, чем я занимаюсь</p>
+														<p>Плохое настроение</p>
+
+													</div>
+
+													<div class="comparison-columns__right gray-bg">
+														<h2 class="title">Моя жизнь <span class="text-orange"> После</span><br> нахождения себя	</h2>
+
+														<p>	Постоянно отличное настроение</p>
+														<p>	Постоянное ощущение счастья и радости</p>
+														<p> Интерес к жизни</p>
+														<p>	Стремление сделать этот мир лучше</p>
+														<p>	Живу в достатке, хотя не перестаю стремиться к еще большему</p>
+														<p>	Высокая самооценка и статус</p>
+														<p>	Финансовая свобода, 2 бизнеса, дорогая машина</p>
+														<p>	Желание помочь другим людям и сделать их счастливее</p>
+														<p>	Испытываю радость от своей работы</p>
+
+													</div>
+
+								</div>
+
+											<div class="offer-center clearfix">
+												<p  class="offer-subtitle">Воспользоваться летним предложением от GoldCoach</p>
+
+														<a href="popup" class="reg-btn">Регистрация</a>
+
+														<p class="offer-text"><span class="text-blackbold">Внимание:</span> <span class="offer-date text-orange">2 ноября 20:00 МСК</span><br>это предложение уйдет!</p>
+
+
+											</div>
+
+		</main>
+			<footer class="page-footer">
+					<!-- block 21 -->
+			<div class="gray-bg">
+				<div class="site-wrapper clearfix">
+
+						<div class="footer-left-col">
+							<p>Р.P.S. Если ты не хочешь дело жизни вместе с предназначением и продолжать пассивно читать книги, что же я могу сказать - удачи тебе! Это твоя жизнь и тебе решать как ее прожить.</p>
+							<p>Я пойму только одно – если ты еще не готов, тебе еще рано, или ты лучше разрушишь жизнь, нарушишь закон Дарма, испортишь карму.
+												Но! Если ты хочешь сделать самую прибыльную инвестицию</p>
+						</div>
+
+						<div class="footer-right-col">
+							<p>	твоей жизни и основать свой собственный прибыльный бизнес, который ты сможете передать по наследству своим детям и внукам, тогда я жду тебя в программе "Экстремальный Старт", а наши коучи ждут тебя на консультации "Свидание С Судьбой".</p>
+							<p>P.P.P.S. Что, если ты все же решил "прошляпить" свою жизнь тогда закрой эту страницу.</p>
+						</div>
+					</div>									<!-- site-wrapper -->
 				</div>
 
-			 <address class="copyright page-footer__copyright">
-  				<span class="copyright__text">Разработано</span>
-  				<a class="copyright__link" href="https://htmlacademy.ru/">
-  				<img src="img/logo-htmlacademy.svg" alt="htmlacademy" class="htmlacademy"></a>
+<!-- <canvas style="border: solid 5px red;" width="500" height="500"></canvas> -->
 
-			 </address>
+					<div class="footer-info">
+							<a class="copyright__link" href="#">
+							Пользовательское соглашение |
+							</a>
+							<a class="copyright__link" href="#">
+							Соглашение об обработке персональных данных |
+							</a>
+							<a class="copyright__link" href="#">
+							Отказ от ответственности |
+							</a>
+							<a class="copyright__link" href="#">
+							О компании GoldCoach
+							</a>
+					</div>
+		 </footer>
 
-	   </footer>
-    </div>
-  </body>
+			<div class="popup">
+    <p class="popup-title">Заполните форму для регистрации</p>
+    <form action="https://server.com" method="post"  class="popup-form">
+     <div class="popup-block">
+
+      <label  class="popup__labels" for="name"></label>
+      <input type="text" id="name" name="name" placeholder="Имя" value="">
+
+      <label  class="popup__labels" for="email"></label>
+      <input type="text" id="phone" name="phone" placeholder="Телефон" value="">
+
+      <label  class="popup__labels" for="email"></label>
+      <input type="text" id="email" name="email" placeholder="E-mail" value="">
+
+     </div>
+
+     <div class="popup-btn">
+      <button class="popup-btn__submit">Зарегистрироваться</button>
+     </div>
+    </form>
+
+   </div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	<script src="js/script.js"></script>
+
+	</body>
 </html>
